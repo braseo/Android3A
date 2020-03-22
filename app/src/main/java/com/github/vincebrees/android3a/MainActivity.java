@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Je rajoute du code
 
+        showList();
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    private void showList() {
+        //TODO Afficher liste
     }
 
     @Override
